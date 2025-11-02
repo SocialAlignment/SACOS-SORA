@@ -1,0 +1,93 @@
+# Brand Canon Intake - Earth Breeze Laundry Detergent Sheets
+# Example intake file - FILL THIS OUT with actual Earth Breeze information
+
+brand_id: "earth-breeze"
+brand_name: "Earth Breeze Laundry Detergent Sheets"
+
+# VOICE & TONE
+voice: |
+  Eco-conscious, friendly, educational, empowering.
+  Speaks to environmentally aware consumers who want to make sustainable choices without sacrificing convenience.
+  Tone is optimistic about positive environmental impact while being practical and down-to-earth.
+  Not preachy or judgmental - celebrates small wins and collective impact.
+
+# VISUAL STYLE
+visual_style: |
+  Clean, modern, eco-friendly aesthetic with natural earth tones (greens, blues, whites).
+  Product-focused with emphasis on simplicity and ease of use.
+  Lifestyle shots showing real-home laundry scenarios.
+  Nature/environmental visuals to reinforce sustainability message.
+  Bright, natural lighting. Uncluttered, minimalist scenes.
+  Blue and green color palette with white product packaging prominently featured.
+
+# IDEAL CUSTOMER PROFILE (ICP)
+icp_profile: |
+  Environmentally conscious consumers, primarily women ages 28-45.
+  Suburban families and urban professionals who prioritize sustainability.
+  Value convenience but unwilling to compromise on environmental responsibility.
+  Pain points: plastic waste from traditional detergent bottles, heavy lifting, storage space for bulky containers.
+  Goals: reduce household environmental footprint, simplify laundry routine, support eco-friendly brands.
+
+# SUCCESSFUL PROMPTS
+successful_prompts:
+  - |
+    [Style: Clean modern home aesthetic, bright natural lighting]
+    [Scene: Hands opening eco-friendly cardboard box containing Earth Breeze sheets]
+    [Action: 0-3s: Traditional plastic detergent bottle fading away, 3-6s: Earth Breeze sheet being held up, 6-9s: sheet dissolving in washing machine, 9-12s: fresh clean laundry with Earth Breeze box visible]
+    [Camera: Close-up product shots, smooth transitions]
+    [Brand: Natural earth tones, white and blue product packaging]
+
+  - |
+    [Style: Split-screen comparison, modern minimalist]
+    [Scene: Side-by-side comparison of traditional detergent vs Earth Breeze]
+    [Action: Left side shows heavy plastic bottle, right side shows lightweight sheets. Transform to show environmental impact difference]
+    [Camera: Static comparison with animated graphics]
+
+  - |
+    Lifestyle scene showing busy parent effortlessly tossing an Earth Breeze sheet into washing machine while multitasking, emphasizing convenience and eco-friendliness in natural home setting.
+
+# PROHIBITED CONTENT
+prohibited_content:
+  - "No copyrighted content or competitor brand logos"
+  - "No real people or recognizable individuals"
+  - "No explicit text or on-screen graphics (product packaging text is OK as part of natural product shots)"
+  - "No captions or subtitles in video"
+  - "Max 45 spoken words if voiceover included"
+  - "Max 65 syllables total"
+  - "No greenwashing or exaggerated environmental claims"
+  - "No showing competitor products by name"
+  - "Avoid harsh chemicals or negative imagery"
+
+# ============================================================
+# OPTIONAL: Additional Context
+# ============================================================
+
+brand_values: |
+  Sustainability, convenience, transparency, collective impact.
+  Mission: Make eco-friendly laundry accessible and effortless for everyone.
+  Every sheet purchased = one less plastic bottle.
+
+key_features: |
+  - Pre-measured laundry detergent sheets (no measuring needed)
+  - Eco-friendly packaging (cardboard, no plastic)
+  - Space-saving (replaces bulky detergent bottles)
+  - Works in all washing machines (HE compatible)
+  - Cruelty-free, paraben-free, phosphate-free
+  - Fresh clean scent or fragrance-free options
+
+signature_phrases:
+  - "Small sheets. Big impact."
+  - "No plastic bottles. Just clean clothes."
+  - "Clean laundry. Clean planet."
+
+platform_notes:
+  tiktok: "Focus on quick before/after comparisons, lifestyle convenience, eco-impact stats"
+  instagram: "Aesthetic lifestyle content, product close-ups, sustainability messaging"
+  linkedin: "B2B angle for corporate sustainability, environmental impact metrics"
+
+content_themes:
+  - "Sustainability & Environmental Impact"
+  - "Convenience & Space-Saving"
+  - "Product Benefits & Features"
+  - "Customer Testimonials & Results"
+  - "Comparison to Traditional Detergent"

@@ -1,0 +1,8 @@
+// Add these dependencies to your package.json:
+
+"dependencies": {
+  // ... existing dependencies ...
+  "@notionhq/client": "^2.2.15",
+  "@anthropic-ai/sdk": "^0.27.3",
+  "@google/generative-ai": "^0.21.0"
+}

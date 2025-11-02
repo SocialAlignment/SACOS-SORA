@@ -1,0 +1,81 @@
+# Brand Canon Intake Template
+# Fill out one copy of this template per brand
+# Save as: brand-intake-{brand-name}.yaml
+
+brand_id: "" # Unique identifier (lowercase-with-dashes, e.g., "earth-breeze")
+brand_name: "" # Official brand name (e.g., "Earth Breeze Laundry Detergent Sheets")
+
+# VOICE & TONE
+# How does this brand communicate? What's their personality?
+# Examples: "Professional yet innovative", "Playful and energetic", "Caring and trustworthy"
+voice: |
+
+
+# VISUAL STYLE
+# What does this brand look like in video content?
+# Include: color palette, aesthetic style, preferred video styles, lighting preferences
+# Examples: "Cinematic 4K modern minimalist", "Colorful dynamic artistic", "Clean medical-grade green and white"
+visual_style: |
+
+
+# IDEAL CUSTOMER PROFILE (ICP)
+# Who is this brand's target audience?
+# Include: demographics, psychographics, pain points, goals
+# Examples: "B2B business owners ages 35-55", "Eco-conscious consumers ages 25-45"
+icp_profile: |
+
+
+# SUCCESSFUL PROMPTS
+# Past Sora prompts that worked well for this brand (if any)
+# If none yet, describe ideal video concepts/scenes
+successful_prompts:
+  - |
+
+  - |
+
+  - |
+
+
+# PROHIBITED CONTENT
+# What should NEVER appear in videos for this brand?
+# OpenAI restrictions (always apply): No real people, copyrighted content, text/logos
+# Brand-specific restrictions: Max words, no captions, visual constraints, competitor mentions
+prohibited_content:
+  - "No copyrighted content or competitor brand logos"
+  - "No real people or recognizable individuals"
+  - "No explicit text or on-screen graphics"
+  - "No captions or subtitles in video"
+  - "Max 45 spoken words if voiceover included"
+  - "Max 65 syllables total"
+  # Add brand-specific restrictions below:
+  - ""
+  - ""
+
+# ============================================================
+# OPTIONAL: Additional Context (helps with prompt generation)
+# ============================================================
+
+# Brand values/mission (optional but helpful)
+brand_values: |
+
+
+# Key product/service features (optional)
+key_features: |
+
+
+# Signature phrases or taglines (optional)
+signature_phrases:
+  - ""
+  - ""
+
+# Platform-specific guidance (optional)
+platform_notes:
+  tiktok: ""
+  instagram: ""
+  linkedin: ""
+
+# Content themes/pillars (optional)
+content_themes:
+  - ""
+  - ""
+  - ""

@@ -1,0 +1,219 @@
+/* Earth Tones Color Palette - Vintage Feel */
+:root {
+  /* Warm earth tones */
+  --burnt-orange: #C75B39;
+  --rust: #B7410E;
+  --terracotta: #E2725B;
+
+  /* Cool accents */
+  --teal: #5F9EA0;
+  --sage-green: #9CAF88;
+  --muted-turquoise: #81B5BB;
+
+  /* Neutrals */
+  --cream: #F5F5DC;
+  --beige: #E8E3D5;
+  --warm-gray: #8B8680;
+  --coffee-brown: #6F4E37;
+  --dark-coffee: #4A3728;
+}
+
+/* Custom utility classes for earth tones */
+.bg-earth-dark {
+  background-color: var(--dark-coffee);
+}
+
+.bg-earth-coffee {
+  background-color: var(--coffee-brown);
+}
+
+.bg-earth-coffee\/40 {
+  background-color: color-mix(in srgb, var(--coffee-brown) 40%, transparent);
+}
+
+.bg-earth-coffee\/20 {
+  background-color: color-mix(in srgb, var(--coffee-brown) 20%, transparent);
+}
+
+.bg-earth-coffee\/10 {
+  background-color: color-mix(in srgb, var(--coffee-brown) 10%, transparent);
+}
+
+.bg-earth-warm {
+  background-color: var(--warm-gray);
+}
+
+.bg-earth-beige {
+  background-color: var(--beige);
+}
+
+.bg-earth-cream {
+  background-color: var(--cream);
+}
+
+.text-earth-cream {
+  color: var(--cream);
+}
+
+.text-earth-cream\/80 {
+  color: color-mix(in srgb, var(--cream) 80%, transparent);
+}
+
+.text-earth-cream\/60 {
+  color: color-mix(in srgb, var(--cream) 60%, transparent);
+}
+
+.text-earth-cream\/40 {
+  color: color-mix(in srgb, var(--cream) 40%, transparent);
+}
+
+.text-earth-beige {
+  color: var(--beige);
+}
+
+.text-earth-burnt {
+  color: var(--burnt-orange);
+}
+
+.text-earth-rust {
+  color: var(--rust);
+}
+
+.text-earth-terracotta {
+  color: var(--terracotta);
+}
+
+.text-earth-teal {
+  color: var(--teal);
+}
+
+.text-earth-sage {
+  color: var(--sage-green);
+}
+
+.text-earth-turquoise {
+  color: var(--muted-turquoise);
+}
+
+.border-earth-cream\/20 {
+  border-color: color-mix(in srgb, var(--cream) 20%, transparent);
+}
+
+.border-earth-cream\/10 {
+  border-color: color-mix(in srgb, var(--cream) 10%, transparent);
+}
+
+.border-earth-cream\/40 {
+  border-color: color-mix(in srgb, var(--cream) 40%, transparent);
+}
+
+.border-earth-teal {
+  border-color: var(--teal);
+}
+
+.border-earth-teal\/30 {
+  border-color: color-mix(in srgb, var(--teal) 30%, transparent);
+}
+
+.border-earth-teal\/50 {
+  border-color: color-mix(in srgb, var(--teal) 50%, transparent);
+}
+
+.border-earth-sage {
+  border-color: var(--sage-green);
+}
+
+.border-earth-sage\/30 {
+  border-color: color-mix(in srgb, var(--sage-green) 30%, transparent);
+}
+
+.border-earth-sage\/50 {
+  border-color: color-mix(in srgb, var(--sage-green) 50%, transparent);
+}
+
+.border-earth-burnt {
+  border-color: var(--burnt-orange);
+}
+
+.border-earth-burnt\/50 {
+  border-color: color-mix(in srgb, var(--burnt-orange) 50%, transparent);
+}
+
+.bg-earth-teal {
+  background-color: var(--teal);
+}
+
+.bg-earth-teal\/10 {
+  background-color: color-mix(in srgb, var(--teal) 10%, transparent);
+}
+
+.bg-earth-sage {
+  background-color: var(--sage-green);
+}
+
+.bg-earth-sage\/10 {
+  background-color: color-mix(in srgb, var(--sage-green) 10%, transparent);
+}
+
+.bg-earth-burnt {
+  background-color: var(--burnt-orange);
+}
+
+.bg-earth-rust {
+  background-color: var(--rust);
+}
+
+.bg-earth-terracotta {
+  background-color: var(--terracotta);
+}
+
+.hover\:bg-earth-cream\/10:hover {
+  background-color: color-mix(in srgb, var(--cream) 10%, transparent);
+}
+
+.hover\:bg-earth-teal:hover {
+  background-color: var(--teal);
+}
+
+.hover\:bg-earth-burnt:hover {
+  background-color: var(--burnt-orange);
+}
+
+/* Checkbox states with earth tones */
+.data-\[state\=checked\]\:bg-earth-teal[data-state="checked"] {
+  background-color: var(--teal);
+}
+
+.data-\[state\=checked\]\:bg-earth-sage[data-state="checked"] {
+  background-color: var(--sage-green);
+}
+
+.data-\[state\=checked\]\:bg-earth-burnt[data-state="checked"] {
+  background-color: var(--burnt-orange);
+}
+
+.data-\[state\=checked\]\:bg-earth-cream[data-state="checked"] {
+  background-color: var(--cream);
+}
+
+.data-\[state\=checked\]\:text-earth-dark[data-state="checked"] {
+  color: var(--dark-coffee);
+}
+
+/* File input special styling */
+.file\:bg-earth-cream\/10::file-selector-button {
+  background-color: color-mix(in srgb, var(--cream) 10%, transparent);
+}
+
+.file\:text-earth-cream::file-selector-button {
+  color: var(--cream);
+}
+
+/* Focus/ring states */
+.focus\:bg-earth-teal\/20:focus {
+  background-color: color-mix(in srgb, var(--teal) 20%, transparent);
+}
+
+.focus\:text-earth-cream:focus {
+  color: var(--cream);
+}

@@ -39,7 +39,7 @@ export async function POST(request: NextRequest) {
         const model = (formData.get('model') as 'sora-2' | 'sora-2-pro') || 'sora-2';
         const prompt = formData.get('prompt') as string | null;
         const size = (formData.get('size') as string) || '1280x720';
-        const secondsStr = (formData.get('seconds') as string) || '4';
+        const secondsStr = (formData.get('seconds') as string) || '10'; // ✅ REAL API: Valid durations are "5", "10", "20"
         const input_reference = formData.get('input_reference') as File | null;
 
         console.log(`Creating video: model=${model}, size=${size}, seconds=${secondsStr}`);

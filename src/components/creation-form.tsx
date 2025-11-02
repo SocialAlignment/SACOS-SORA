@@ -207,32 +207,32 @@ export function CreationForm({
                             className='flex gap-4'>
                             <div className='flex items-center space-x-2'>
                                 <RadioGroupItem
-                                    value='4'
-                                    id='duration-4'
+                                    value='5'
+                                    id='duration-5'
                                     className='border-white/40 text-white data-[state=checked]:border-white data-[state=checked]:text-white'
                                 />
-                                <Label htmlFor='duration-4' className='cursor-pointer text-base text-white/80'>
-                                    4 seconds
+                                <Label htmlFor='duration-5' className='cursor-pointer text-base text-white/80'>
+                                    5 seconds
                                 </Label>
                             </div>
                             <div className='flex items-center space-x-2'>
                                 <RadioGroupItem
-                                    value='8'
-                                    id='duration-8'
+                                    value='10'
+                                    id='duration-10'
                                     className='border-white/40 text-white data-[state=checked]:border-white data-[state=checked]:text-white'
                                 />
-                                <Label htmlFor='duration-8' className='cursor-pointer text-base text-white/80'>
-                                    8 seconds
+                                <Label htmlFor='duration-10' className='cursor-pointer text-base text-white/80'>
+                                    10 seconds
                                 </Label>
                             </div>
                             <div className='flex items-center space-x-2'>
                                 <RadioGroupItem
-                                    value='12'
-                                    id='duration-12'
+                                    value='20'
+                                    id='duration-20'
                                     className='border-white/40 text-white data-[state=checked]:border-white data-[state=checked]:text-white'
                                 />
-                                <Label htmlFor='duration-12' className='cursor-pointer text-base text-white/80'>
-                                    12 seconds
+                                <Label htmlFor='duration-20' className='cursor-pointer text-base text-white/80'>
+                                    20 seconds
                                 </Label>
                             </div>
                         </RadioGroup>

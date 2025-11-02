@@ -1,0 +1,121 @@
+/* CLEAN MODERN DARK THEME - Professional & Minimal */
+
+html, body, #__next {
+    background: #0a0a0a !important; /* Deep charcoal */
+    min-height: 100vh !important;
+    color: #f5f5f5 !important; /* Off-white */
+}
+
+/* Clean backgrounds with good contrast */
+* {
+    --background: #0a0a0a !important;
+    --foreground: #f5f5f5 !important;
+    --card: #1a1a1a !important; /* Dark card background */
+    --card-foreground: #f5f5f5 !important;
+}
+
+/* Cards with subtle borders and depth */
+div[class*="bg-"], div[class*="background"] {
+    background: #1a1a1a !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: none !important;
+}
+
+/* Modern buttons with accent color */
+button {
+    background: #3b82f6 !important; /* Clean blue */
+    color: #ffffff !important;
+    border: 1px solid #3b82f6 !important;
+    font-weight: 600 !important;
+    text-transform: none !important;
+    transition: all 0.2s ease !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 0.5rem !important;
+}
+
+button:hover {
+    background: #2563eb !important;
+    border-color: #2563eb !important;
+    transform: none !important;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+}
+
+button[variant="outline"], button.outline {
+    background: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: #f5f5f5 !important;
+}
+
+button[variant="outline"]:hover, button.outline:hover {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Clean inputs with good contrast */
+input, textarea, select {
+    background: #0a0a0a !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    color: #f5f5f5 !important;
+    padding: 0.5rem !important;
+    border-radius: 0.375rem !important;
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgba(245, 245, 245, 0.4) !important;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #3b82f6 !important;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+    outline: none !important;
+}
+
+/* Professional headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+    text-shadow: none !important;
+    font-weight: 600 !important;
+}
+
+/* Clean checkbox and radio styles */
+input[type="checkbox"], input[type="radio"] {
+    border: 2px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Radix UI Checkbox - Override button styles */
+button[role="checkbox"] {
+    background: transparent !important;
+    border: 2px solid rgba(255, 255, 255, 0.4) !important;
+    width: 1rem !important;
+    height: 1rem !important;
+    padding: 0 !important;
+    min-width: 1rem !important;
+    border-radius: 0.25rem !important;
+}
+
+button[role="checkbox"][data-state="checked"] {
+    background: #3b82f6 !important;
+    border-color: #3b82f6 !important;
+}
+
+button[role="checkbox"]:hover {
+    background: rgba(59, 130, 246, 0.1) !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+button[role="checkbox"][data-state="checked"]:hover {
+    background: #2563eb !important;
+    border-color: #2563eb !important;
+}
+
+/* Labels */
+label {
+    color: #e5e5e5 !important;
+    font-weight: 500 !important;
+}
+
+/* Subtle section dividers */
+.space-y-4, .space-y-6 {
+    border-radius: 0.75rem !important;
+}
